@@ -1,0 +1,169 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*header*/
+.navbar {
+    @apply grid items-start gap-0 
+    justify-between w-screen top-0 text-black py-1 
+    h-[112px] p-[1.2rem] sticky bg-white z-10
+}
+
+.toprowplacement {
+    @apply flex items-center 
+    laptop:flex-nowrap w-screen ml-10 place-content-baseline
+}
+
+.logo {
+    @apply flex shrink-0 flex-nowrap self-center w-[160px]
+    h-[25px] place-self-start
+}
+
+.btn {
+    @apply rounded bg-transparent text-black 
+    laptop:w-fit laptop:h-[60px] w-0 h-0 text-sm flex items-center
+    mb-1 p-3  leading-none cursor-pointer
+}
+
+.buttn {
+    @apply rounded-none bg-white border-solid 
+    border-black text-black border-[1px] font-semibold
+    hover:bg-slate-200 self-center laptop:w-[140px] 
+    laptop:h-[40px] w-0 h-0
+    flex items-center text-sm laptop:pl-3
+    cursor-pointer leading-none
+}
+
+.btncategories {
+    @apply mb-1 rounded p-3 text-sm
+    font-semibold leading-none hover:bg-gray-300 
+    flex items-center bg-white text-black
+}
+
+.headersvg {
+    @apply object-center w-6 h-6 text-black 
+}
+
+/*components*/
+.backdrop {
+    @apply top-0 fixed bg-gray-500 bg-opacity-50
+    w-full h-full grid z-20
+ }
+
+ .backdroptwo {
+    @apply bottom-0 fixed bg-gray-500 bg-opacity-50
+    w-full h-full grid  top-28 z-20
+ }
+ 
+
+
+ /*signup form*/
+ form {
+    @apply 
+    bg-[white] text-left h-max
+    px-[50px] border-none  w-full
+}
+label {
+    @apply
+    text-black inline-block
+    mt-[25px] mb-[15px] text-[14px] 
+    font-semibold
+}
+input, select {
+    @apply block
+    pt-[10px] pr-[6px]
+    w-[100%] border-b-[1px] border-solid 
+    border-slate-200 outline-none text-[14px]
+}
+
+.buton {
+    @apply
+    bg-gray-400 
+    py-[10px] px-[20px]
+    mt-[20px] font-bold
+    text-white uppercase place-self-start
+    
+}
+
+.submit {
+    @apply
+    text-center  grid
+}
+.error {
+    @apply
+    text-red-400
+    mt-[10px]
+    font-bold
+}
+
+/*carousel*/
+
+.btnl {
+    @apply absolute h-[50px] w-12 bg-transparent text-white
+    hover:outline-none hover:cursor-pointer hover:text-2xl
+    active:outline-none active:cursor-pointer top-[50%] left-0
+    z-0
+}
+
+.btnr {
+    @apply absolute h-[50px] w-12 bg-transparent text-white
+    hover:outline-none hover:cursor-pointer hover:text-2xl
+    active:outline-none active:cursor-pointer top-[50%] right-0
+    z-0
+}
+
+.carousel {
+    @apply h-[300px] mobile:h-[600px] overflow-hidden 
+    top-4 justify-self-center object-center relative z-0
+}
+
+.adjust {
+    @apply h-[350px] mobile:h-[600px] w-[200px] mobile:w-[300px] tablet:w-[450px] 
+    laptop:w-[700px] desktop:w-[900px]
+    rounded-2xl top-0 object-center
+} 
+.carouselSlide {
+    @apply absolute top-0 bottom-0 left-0 right-0 
+}
+
+/*transitions*/
+
+.left-enter-active {
+    animation: leftInAnimation 0.5s ease-in;
+}
+
+.left-leave-active {
+    animation: leftOutAnimation 0.5s ease-in;
+}
+
+@keyframes leftInAnimation {
+    from { transform: translateX(-100%);}
+    to { transform: translateX(0);}
+}
+
+@keyframes leftOutAnimation {
+    from { transform: translateX(0%);}
+    to { transform: translateX(100%);}
+}
+
+/*right*/
+
+.right-enter-active {
+    animation: rightInAnimation 0.5s ease-in;
+}
+
+.right-leave-active {
+    animation: rightOutAnimation 0.5s ease-in;
+}
+
+@keyframes rightInAnimation {
+    from { transform: translateX(0%);}
+    to { transform: translateX(-100%);}
+}
+
+@keyframes rightOutAnimation {
+    from { transform: translateX(+100%);}
+    to { transform: translateX(0);}
+}    
+
