@@ -6,7 +6,7 @@
 
             
 
-            <div class="grid w-1/2 bg-brand bg-cover gap-0  ">
+            <div class="grid w-1/2 bg-brand bg-cover gap-0 ">
           
                 <div class="text-white font-italic 
                     font-semibold text-xl place-self-start  
