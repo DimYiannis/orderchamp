@@ -78,7 +78,7 @@
           laptop:visible invisible ">
             <li 
             class="btn">
-              <a href="/brands">Apply as brand</a>
+              <a href="brands">Apply as brand</a>
             </li>
             <li @click="login"
             class="btn" >

@@ -14,7 +14,7 @@
                 </div>
 
                 <div class="place-self-center">
-                    <img src="	https://cdn.orderchamp.com/assets/store/images/retailer-step1-intro-new.png"
+                    <img src="https://cdn.orderchamp.com/assets/store/images/retailer-step1-intro-new.png"
                     class="w-[400px]" />
                 </div>
 
@@ -123,7 +123,8 @@
 
 <script>
 import Theform from './Theform.vue';
-export default {
+export default 
+{
     name: 'SignupForm',
     components: {Theform,},
     data() {
