@@ -78,7 +78,7 @@
           laptop:visible invisible ">
             <li 
             class="btn">
-              <a href="brands">Apply as brand</a>
+              <RouterLink to="brands">Apply as brand</RouterLink>
             </li>
             <li @click="login"
             class="btn" >
@@ -285,12 +285,13 @@ import HealthBeauty from './components/categories/HealthBeauty.vue';
 import JewleryAccessories from './components/categories/JewleryAccessories.vue';
 import KidsBaby from './components/categories/KidsBaby.vue';
 import palais from './views/palais.vue';
+import { RouterLink } from 'vue-router';
 
 export default {
-  components: {SignupForm,palais,Loginmodal,
-    HomeLiving,Stationery,FoodBeverages,
-    KitchenDining,HealthBeauty,JewleryAccessories,KidsBaby,
-    categoriesmodal,applyasbrand},
+  components: { SignupForm, palais, Loginmodal,
+    HomeLiving, Stationery, FoodBeverages,
+    KitchenDining, HealthBeauty, JewleryAccessories, KidsBaby,
+    categoriesmodal, applyasbrand, RouterLink },
   data() {
     return {
       activeTab: '',
