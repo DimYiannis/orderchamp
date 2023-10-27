@@ -8,10 +8,10 @@
  
       <div class="laptop:flex  gap-3 place-items-baseline w-fit mr-5">
         <div class="flex gap-2">
-          <a href="/">
+          <router-link to="/">
             <img src="./assets/logo.png"
             class="logo">
-          </a>
+          </router-link>
 
             <!--category menu-->
           <div class="laptop:hidden flex  items-center">
@@ -78,7 +78,7 @@
           laptop:visible invisible ">
             <li 
             class="btn">
-              <RouterLink to="brands">Apply as brand</RouterLink>
+              <router-link to="/brands">Apply as brand</router-link>
             </li>
             <li @click="login"
             class="btn" >
