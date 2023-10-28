@@ -10,37 +10,37 @@ import Cushions from '../views/Cushions.vue'
 
 const routes = [ 
   {
-    path:'/orderchamp',
+    path:'/',
     name: 'Homepage',
     component: Homepage,
   },
   {
-    path:'/orderchamp/palais',
+    path:'/palais',
     name: 'palais',
     component: Palais,
   },
   {
-    path:'/orderchamp/palais/item',
+    path:'/palais/item',
     name: 'item',
     component: item,
   },
   {
-    path:'/orderchamp/brands',
+    path:'/brands',
     name: 'brands',
     component: Brands,
   },
   {
-    path:'/orderchamp/home-living',
+    path:'/home-living',
     name: 'HomeandLiving',
     component: HomeandLiving,
   },
   {
-    path:'/orderchamp/home-living/home-textiles',
+    path:'/home-living/home-textiles',
     name: 'Hometextiles',
     component: Hometextiles,
   },
   {
-    path:'/orderchamp/home-living/home-textiles/cushions',
+    path:'/home-living/home-textiles/cushions',
     name: 'Cushions',
     component: Cushions,
   },
