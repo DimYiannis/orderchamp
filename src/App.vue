@@ -128,9 +128,9 @@
           <component :is="activeTab"   @close="closeTab" />
         </Teleport>
 
-      <a href="/marketplace?fs_campaign=hot-deals-all" class="btncategories">
+      <a class="btncategories">
         <div class="flex w-full flex-nowrap justify-between">Hot Deals -10%</div></a>
-      <a href="https://www.orderchamp.com/marketplace?fs_digital-fair=all" class="btncategories">
+      <a class="btncategories">
         <div class="flex w-full flex-nowrap justify-between">
         Digital Fair
       </div></a>
