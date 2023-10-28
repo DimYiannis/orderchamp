@@ -4,7 +4,7 @@
       <div class="w-fit flex h-[4px] mt-[50px] laptop:mt-[40px] 
         invisible laptop:visible text-[15px] ml-14">
         <div class="flex place-self-end mr-2 ">
-          <router-link to="/" class="font-semibold text-black bg-white 
+          <router-link to="/orderchamp" class="font-semibold text-black bg-white 
               object-center border-solid border-[1px] border-gray-100">
               &lt; Back 
           </router-link>
@@ -25,8 +25,8 @@
 
           <div class="flex flex-nowrap overflow-hidden text-ellipsis self-end">
             <span class="flex flex-nowrap overflow-hidden gap-2">
-              <a href="/home-living" class="cursor-pointer font-semibold">&gt; Home & Living</a>
-              <a href="/home-living/home-textiles" class="cursor-pointer font-semibold"> &gt; Home Textiles</a>
+              <a href="/orderchamp/home-living" class="cursor-pointer font-semibold">&gt; Home & Living</a>
+              <a href="/orderchamp/home-living/home-textiles" class="cursor-pointer font-semibold"> &gt; Home Textiles</a>
               <a class="cursor-text">&gt; Cushions</a>
               
             </span>

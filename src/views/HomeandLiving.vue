@@ -5,7 +5,7 @@
       laptop:mt-[40px] 
           invisible tablet:visible text-[15px] ml-14">
           <div class="flex place-self-end mr-2 ">
-              <router-link to="/" class="font-semibold text-black bg-white 
+              <router-link to="/orderchamp" class="font-semibold text-black bg-white 
                   object-center border-solid border-[1px] border-gray-100">
                   &lt; Back 
               </router-link>
