@@ -30,7 +30,7 @@
                             
                             <div class="mt-10 laptop:mt-15">
                                 Want to sell via Orderchamp?
-                                <a href="/brands" class="underline">More info</a>
+                                <router-link to="/brands" class="underline">More info</router-link>
                             </div>
                         </div>
 
