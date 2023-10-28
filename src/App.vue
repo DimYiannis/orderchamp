@@ -8,7 +8,7 @@
  
       <div class="laptop:flex  gap-3 place-items-baseline w-fit mr-5">
         <div class="flex gap-2">
-          <router-link to="/orderchamp">
+          <router-link to="/">
             <img src="./assets/logo.png"
             class="logo">
           </router-link>
@@ -78,7 +78,7 @@
           laptop:visible invisible ">
             <li 
             class="btn">
-              <router-link to="/orderchamp/brands">Apply as brand</router-link>
+              <router-link to="/brands">Apply as brand</router-link>
             </li>
             <li @click="login"
             class="btn" >
